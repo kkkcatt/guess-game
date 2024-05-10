@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scissor.css">
+    <title>猜拳游戏</title>
+</head>
+<body >
+  <div>
+    <p class="title"> Rock Paper Scissors </p>
+    <button  onclick="playGame('rock')" class="move-button" >
+    <img src="/img/rock-emoji.png" class="move-ico" >
+    </button>
+    <button  onclick="playGame('paper');" class="move-button" >
+        <img src="/img/paper-emoji.png" class="move-ico">
+    </button>
+    <button  onclick="playGame('scissors')" class="move-button" >
+        <img src="/img/scissors-emoji.png" class="move-ico" >
+    </button>
+    
+    <p class="result"></p>
+    <p class="move"></p>
+    <p class="score">Wins:0,Losses:0,Ties:0</p>
+    <button class="reset-score-button" onclick="resetScore()">Reset Score</button>
+    <button class="auto-play-button" onclick="autoPlay()">Auto play</button>
+  </div>
+  <script src="./scissors.js"></script>
+</body>
+</html>
