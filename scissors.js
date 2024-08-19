@@ -42,7 +42,7 @@ function playGame(playerMove) {
 
 function resetScore() {
     score = { Wins: 0, Losses: 0, Ties: 0 }; 
-    localStorage.setItem('score', JSON.stringify(score));//注意
+    localStorage.setItem('score', JSON.stringify(score));
     document.querySelector('.score').innerHTML = `Wins: ${score.Wins}, Losses: ${score.Losses}, Ties: ${score.Ties}`;
 }
 
