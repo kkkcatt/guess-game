@@ -56,5 +56,4 @@ function autoPlay() {
     }else  {clearInterval(autoPlayInterval);
       isAutoPlay = false;}
   }
-  const  hello = null
-  const hello2  = ''
+ 
